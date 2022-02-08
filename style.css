@@ -122,3 +122,18 @@ body {
     border-color: green;
   }
 }
+@media (max-width: 1000px) {
+  .container {
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
+  }
+  .card {
+    width: 100%;
+  }
+  .square {
+    height: 50px;
+  }
+}
